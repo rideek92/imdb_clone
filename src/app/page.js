@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main >
-      <h1 className="text-[#444444]">Hello World</h1>
+    <main className="px-2" >
+      <h1 className="">Hello World</h1>
     </main>
   )
 }

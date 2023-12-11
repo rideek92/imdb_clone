@@ -1,7 +1,6 @@
-import { Inter } from 'next/font/google'
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Headers from "@/app/Components/Headers";
+import MainElements from "@/app/Components/MainElements";
 
 export const metadata = {
   title: 'IMDb Clone',
@@ -10,10 +9,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pl">
-      <body className={inter.className}>
-      <h1 className="text-[#333444]">Menu</h1>
-      {children}
+    <html lang="pl" suppressHydrationWarning>
+      <body className="bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200 ">
+      {/* eslint-disable-next-line react/no-children-prop */}
+            <MainElements children = {children}/>
       </body>
     </html>
   )
