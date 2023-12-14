@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Headers(){
     return(
-        <div className="flex justify-between max-w-7xl">
+        <div className="flex justify-between max-w-7xl m-auto ">
             <div className="flex py-2 items-center">
                 <MenuItem title="Home" addres="/" itemLogo={GoHome()}/>
                 <MenuItem title="About" addres="/about" itemLogo={IoInformationCircleOutline()}/>
