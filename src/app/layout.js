@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pl" suppressHydrationWarning>
+    <html lang="pl" suppressHydrationWarning className="scrollbar-hide">
       <body className="bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200 ">
       {/* eslint-disable-next-line react/no-children-prop */}
             <MainElements children = {children}/>
