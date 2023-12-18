@@ -5,7 +5,8 @@ const Navbar = () => {
         <div className="flex bg-gray-50 dark:bg-gray-600 justify-center h-14 items-center my-3 ">
             <NavbarItem title="All Films" param="all"/>
             <NavbarItem title="Movies" param="movie"/>
-            
+            <NavbarItem title="Sprawdzenie" param="test"/>
+
         </div>
     );
 };
